@@ -5,5 +5,5 @@ def index(request):
     return HttpResponse('Главная страница социальной сети блогеров')
 
 
-def groups_detail(request, slug):
+def group_posts(request, slug):
     return HttpResponse(f'Пост: {slug}')
